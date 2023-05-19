@@ -5,7 +5,6 @@ import numpy as np
 def prefix_average1(S):
     """Return list such that,
     for all j, A[j] equals average of S[0], ..., S[j].
-    عمل لست من افرج الارقام نفسها
     """
     n = len(S)
     A = [0] * n  # create new list of n zeros
